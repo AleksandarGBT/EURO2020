@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoryActivity"
+    android:background="@mipmap/euro5">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/l1">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Year"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/year"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Winner"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/winner"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/score"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Runner-up"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/runner"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Host"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/host"/>
+</LinearLayout>
+</RelativeLayout>
+
+  <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/l2"
+      android:layout_below="@id/l1"
+      android:layout_marginTop="10dp">
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/y1960"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:text="1960"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="15dp"
+        android:src="@mipmap/sov"
+         android:layout_marginLeft="1dp"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Soviet Union 2-1 (a.e.t.)"
+              android:textSize="12sp" />
+          <ImageView
+              android:layout_width="25dp"
+              android:layout_height="15dp"
+              android:src="@mipmap/yug"
+              android:layout_marginLeft="3dp"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Yugoslavia"
+              android:textSize="12sp" />
+          <ImageView
+              android:layout_width="25dp"
+              android:layout_height="15dp"
+              android:src="@mipmap/fra"
+              android:layout_marginLeft="10dp"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="France"
+              android:textSize="12sp" />
+
+      </LinearLayout>
+  </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/l3"
+        android:layout_below="@id/l2"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/y1964"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="1964"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/spa"
+                android:layout_marginLeft="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spain              2-1            "
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/sov"
+                android:layout_marginLeft="3dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soviet Union"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/spa"
+                android:layout_marginLeft="3dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spain"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/l4"
+        android:layout_below="@id/l3"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/y1968"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="1968"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/ita"
+                android:layout_marginLeft="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Italy 1-1 (a.e.t) 2-0 reply"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/yug"
+                android:layout_marginLeft="3dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yugoslavia"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/ita"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Italy"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/l5"
+        android:layout_below="@id/l4"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/y1972"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="1972"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/ger"
+                android:layout_marginLeft="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="West Germany 3-0"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/sov"
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soviet Union"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/bel"
+                android:layout_marginLeft="2dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Belgium"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/l6"
+        android:layout_below="@id/l5"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/y1976"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="1976"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/cze"
+                android:layout_marginLeft="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CzechSlo 2-2 a.e.t 5-3p"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/ger"
+                android:layout_marginLeft="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="West German"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/yug"
+                android:layout_marginLeft="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yugoslav"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/l7"
+        android:layout_below="@id/l6"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/y1980"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="1980"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/ger"
+                android:layout_marginLeft="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="West Germany  2-1        "
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/bel"
+                android:layout_marginLeft="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Belgium"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="16dp"
+                android:src="@mipmap/ita"
+                android:layout_marginLeft="26dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Italy"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/l8"
+        android:layout_below="@id/l7"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/y1984"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="1984"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/fra"
+                android:layout_marginLeft="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="France               2-0         "
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/spa"
+                android:layout_marginLeft="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spain"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="16dp"
+                android:src="@mipmap/fra"
+                android:layout_marginLeft="39dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="France"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/l9"
+        android:layout_below="@id/l8"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/y1988"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="1988"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/net"
+                android:layout_marginLeft="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Netherlands     2-0         "
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/sov"
+                android:layout_marginLeft="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soviet Union"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/ger"
+                android:layout_marginLeft="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Germany"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/l10"
+        android:layout_below="@id/l9"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/y1992"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="1992"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/den"
+                android:layout_marginLeft="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Denmark           2-0         "
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/ger"
+                android:layout_marginLeft="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Germany"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/swe"
+                android:layout_marginLeft="22dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sweden"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/l11"
+        android:layout_below="@id/l10"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/y1996"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="1996"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/ger"
+                android:layout_marginLeft="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Germany           2-1(g.g.)"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/cze"
+                android:layout_marginLeft="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Czech"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/eng"
+                android:layout_marginLeft="34dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="England"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/l12"
+        android:layout_below="@id/l11"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/y2000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="2000"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/fra"
+                android:layout_marginLeft="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="France               2-1(g.g.) "
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/ita"
+                android:layout_marginLeft="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Italy"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/bel"
+                android:layout_marginLeft="29dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bel"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/net" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Net"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/l13"
+        android:layout_below="@id/l12"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/y2004"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="2004"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/gre"
+                android:layout_marginLeft="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Greece               1-0"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/por"
+                android:layout_marginLeft="32dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Portugal"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/por"
+                android:layout_marginLeft="25dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Portugal"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/l14"
+        android:layout_below="@id/l13"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/y2008"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="2008"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/spa"
+                android:layout_marginLeft="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spain                  1-0"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/ger"
+                android:layout_marginLeft="28dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Germany"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/aus"
+                android:layout_marginLeft="9dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aus"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/sui" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sui"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/l15"
+        android:layout_below="@id/l14"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/y2012"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="2012"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/spa"
+                android:layout_marginLeft="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spain                  4-0"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/ita"
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Italy"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/pol"
+                android:layout_marginLeft="32dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pol"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/ukr" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ukr"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/l16"
+        android:layout_below="@id/l15"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/y2016"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="2016"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/por"
+                android:layout_marginLeft="1dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Portugal          1-0(a.e.t.)"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/fra"
+                android:layout_marginLeft="3dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="France"
+                android:textSize="12sp" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:src="@mipmap/fra"
+                android:layout_marginLeft="37dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="France"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

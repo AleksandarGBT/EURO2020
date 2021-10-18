@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.euro2020">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ball2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ball2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EURO2020">
+        <activity android:name="com.example.euro2020.IgracActivity"
+            android:label="Players"></activity>
+        <activity
+            android:name="com.example.euro2020.StandingsActivity"
+            android:label="Top 10 GOALSCORERS" />
+        <activity
+            android:name="com.example.euro2020.ResultsActivity"
+            android:label="Results" />
+        <activity
+            android:name="com.example.euro2020.PlayersActivity2"
+            android:label="@string/activity_players2" />
+        <activity
+            android:name="com.example.euro2020.WebsiteActivity"
+            android:label="@string/activity_website" />
+        <activity
+            android:name="com.example.euro2020.PlayersActivity"
+            android:label="@string/activity_players" />
+        <activity
+            android:name="com.example.euro2020.GroupsActivity"
+            android:label="@string/activity_groups" />
+        <activity
+            android:name="com.example.euro2020.RefereeActivity"
+            android:label="@string/activity_referee" />
+        <activity
+            android:name="com.example.euro2020.StadiumActivity"
+            android:label="@string/activity_stadium" />
+        <activity
+            android:name="com.example.euro2020.SummaryActivity"
+            android:label="@string/activity_summary" />
+        <activity
+            android:name="com.example.euro2020.HistoryActivity"
+            android:label="@string/activity_history" />
+        <activity android:name="com.example.euro2020.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

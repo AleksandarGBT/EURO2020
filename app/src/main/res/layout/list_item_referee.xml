@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    app:cardCornerRadius="7dp"
+    app:cardElevation="7dp"
+    android:layout_margin="5dp"
+    android:backgroundTint="@color/teal">
+  <RelativeLayout
+      android:layout_width="200dp"
+      android:layout_height="wrap_content">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/collapsedRelLayout2">
+
+          <ImageView
+              android:layout_width="200dp"
+              android:layout_height="220dp"
+              android:layout_marginLeft="2dp"
+              android:layout_marginRight="2dp"
+              android:id="@+id/imgReferee"
+              android:src="@mipmap/ic_launcher"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Referee Name"
+              android:textStyle="bold"
+              android:textSize="14dp"
+              android:layout_below="@id/imgReferee"
+              android:id="@+id/txtRefereeName"/>
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/ic_down_arrow"
+              android:layout_below="@id/imgReferee"
+              android:layout_marginTop="2dp"
+              android:id="@+id/btnDownArrow2"
+              android:layout_alignParentEnd="true"/>
+
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/collapsedRelLayout2"
+          android:id="@+id/expandedRelLayout2"
+          android:visibility="gone">
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/line11">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Born:"
+                  android:layout_marginTop="7dp"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Born:"
+                  android:id="@+id/bornText"
+                  android:layout_marginLeft="30dp"
+                  android:layout_marginTop="7dp"/>
+
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/line12"
+              android:layout_below="@id/line11">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Age:"
+                  android:layout_marginTop="7dp"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Age:"
+                  android:id="@+id/ageText"
+                  android:layout_marginLeft="35dp"
+                  android:layout_marginTop="7dp"/>
+
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/line13"
+              android:layout_below="@id/line12">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Country:"
+                  android:layout_marginTop="7dp"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Country:"
+                  android:id="@+id/countryText2"
+                  android:layout_marginTop="7dp"
+                  android:layout_marginLeft="10dp"/>
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/line14"
+              android:layout_below="@id/line13"
+              android:layout_alignParentEnd="true">
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:src="@drawable/ic_up_arrow"
+                  android:id="@+id/btnUpArrow2"
+                  android:layout_marginRight="3dp"
+                  android:layout_marginBottom="3dp"/>
+          </LinearLayout>
+
+      </RelativeLayout>
+
+  </RelativeLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

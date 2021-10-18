@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    app:cardCornerRadius="7dp"
+    app:cardElevation="7dp"
+    android:layout_margin="5dp"
+    android:backgroundTint="@color/teal">
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/collapsedRelLayout">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="220dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:id="@+id/imgPlayer"
+                android:src="@mipmap/ic_launcher"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player Name"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:layout_below="@id/imgPlayer"
+                android:id="@+id/txtPlayerName"/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_down_arrow"
+                android:layout_below="@id/imgPlayer"
+                android:layout_marginTop="2dp"
+                android:id="@+id/btnDownArrow"
+                android:layout_alignParentEnd="true"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/collapsedRelLayout"
+            android:id="@+id/expandedRelLayout"
+            android:visibility="gone">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/line1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Current club:"
+                    android:layout_marginTop="7dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Club:"
+                    android:id="@+id/clubText"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="7dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/line2"
+                android:layout_below="@id/line1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Country:"
+                    android:layout_below="@id/cityText"
+                    android:layout_marginTop="7dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Country:"
+                    android:id="@+id/countryText"
+                    android:layout_below="@id/clubText"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="35dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/line3"
+                android:layout_below="@id/line2">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Number:"
+                    android:layout_below="@id/numberText"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Number:"
+                    android:id="@+id/numberText"
+                    android:layout_below="@id/countryText"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginLeft="35dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/line4"
+                android:layout_below="@id/line3">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Born:"
+                    android:layout_below="@id/numberText"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Born:"
+                    android:id="@+id/bornText"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginLeft="55dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/line5"
+                android:layout_below="@id/line4">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age:"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age:"
+                    android:id="@+id/ageText"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginLeft="60dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/line6"
+                android:layout_below="@id/line5">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Position:"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Position:"
+                    android:id="@+id/positionText"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginLeft="35dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/line7"
+                android:layout_below="@id/line6"
+                android:layout_alignParentEnd="true">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_up_arrow"
+                    android:id="@+id/btnUpArrow"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginBottom="3dp"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>

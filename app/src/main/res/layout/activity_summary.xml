@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SummaryActivity"
+    android:background="@mipmap/euro5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel1">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TEAM"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:text="WINNERS"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:text="RUNNERS-UP"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel2"
+        android:layout_below="@id/rel1">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/ger" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Germany"
+        android:layout_marginLeft="2dp"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="3 (1972,1980,1996)"
+            android:textSize="12sp"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="3 (1976,1992,2008)"
+            android:textSize="12sp"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel3"
+        android:layout_below="@id/rel2">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/spa" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spain"
+                android:layout_marginLeft="2dp"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="58dp"
+                android:text="3 (1964,2008,2012)"
+                android:textSize="12sp"
+                android:textStyle="italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="1 (1984)"
+                android:textSize="12sp"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel4"
+        android:layout_below="@id/rel3">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/fra" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="France"
+                android:layout_marginLeft="2dp"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="52dp"
+                android:text="2 (1984,2000)"
+                android:textSize="12sp"
+                android:textStyle="italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="1 (2016)"
+                android:textSize="12sp"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel5"
+        android:layout_below="@id/rel4">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/sov" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soviet Union"
+                android:layout_marginLeft="2dp"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="1 (1960)"
+                android:textSize="12sp"
+                android:textStyle="italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="77dp"
+                android:text="3 (1964, 1972, 1988)"
+                android:textSize="12sp"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel6"
+        android:layout_below="@id/rel5">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/ita" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Italy"
+                android:layout_marginLeft="2dp"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:text="1 (1968)"
+                android:textSize="12sp"
+                android:textStyle="italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="77dp"
+                android:text="2 (2000, 2012)"
+                android:textSize="12sp"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel7"
+        android:layout_below="@id/rel6">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/cze" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Czech Republic"
+                android:layout_marginLeft="2dp"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="1 (1976)"
+                android:textSize="12sp"
+                android:textStyle="italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="77dp"
+                android:text="1 (1996)"
+                android:textSize="12sp"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel8"
+        android:layout_below="@id/rel7">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/por" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Portugal"
+                android:layout_marginLeft="2dp"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:text="1 (2016)"
+                android:textSize="12sp"
+                android:textStyle="italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="77dp"
+                android:text="1 (2004)"
+                android:textSize="12sp"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel9"
+        android:layout_below="@id/rel8">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/net" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Netherlands"
+                android:layout_marginLeft="2dp"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:text="1 (1988)"
+                android:textSize="12sp"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel10"
+        android:layout_below="@id/rel9">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/den" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Denmark"
+                android:layout_marginLeft="2dp"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="1 (1992)"
+                android:textSize="12sp"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel11"
+        android:layout_below="@id/rel10">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/gre" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Greece"
+                android:layout_marginLeft="2dp"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="1 (2004)"
+                android:textSize="12sp"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel12"
+        android:layout_below="@id/rel11">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/yug" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yugoslavia"
+                android:layout_marginLeft="2dp"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:text="2 (1960, 1968)"
+                android:textSize="12sp"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel13"
+        android:layout_below="@id/rel12">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/bel" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Belgium"
+                android:layout_marginLeft="2dp"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="165dp"
+                android:text="1 (1980)"
+                android:textSize="12sp"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

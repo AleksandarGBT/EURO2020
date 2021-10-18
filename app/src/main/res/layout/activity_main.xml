@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/euro2"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/btnIgrac"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/dress"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/txtIgrac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAYERS"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btnIgrac"
+        app:layout_constraintStart_toStartOf="@+id/btnIgrac"
+        app:layout_constraintTop_toBottomOf="@+id/btnIgrac" />
+
+    <ImageView
+        android:id="@+id/btnGroups"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/group"
+        app:layout_constraintBottom_toTopOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline26" />
+
+    <ImageView
+        android:id="@+id/btnStandings"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ball2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline23"
+        app:layout_constraintTop_toBottomOf="@+id/textStandings" />
+
+
+    <TextView
+        android:id="@+id/textStandings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="GOAL"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btnStandings"
+        app:layout_constraintStart_toStartOf="@+id/btnStandings"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="SCORERS"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btnStandings"
+        app:layout_constraintStart_toStartOf="@+id/btnStandings"
+        app:layout_constraintTop_toBottomOf="@+id/btnStandings" />
+
+
+    <ImageView
+        android:id="@+id/btnResults"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@mipmap/resul"
+        app:layout_constraintBottom_toTopOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/guideline23"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline26" />
+
+    <ImageView
+        android:id="@+id/btnReferees"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/colina"
+        app:layout_constraintEnd_toStartOf="@+id/guideline23"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textRef1" />
+
+    <TextView
+        android:id="@+id/textRef1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="REFE"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btnReferees"
+        app:layout_constraintStart_toStartOf="@+id/btnReferees"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textRef2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="REES"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btnReferees"
+        app:layout_constraintStart_toStartOf="@+id/btnReferees"
+        app:layout_constraintTop_toBottomOf="@+id/btnReferees" />
+
+
+    <ImageView
+        android:id="@+id/btnStadiums"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="1dp"
+        android:src="@mipmap/stad"
+        app:layout_constraintStart_toStartOf="@+id/guideline23"
+        app:layout_constraintTop_toBottomOf="@+id/textSta" />
+
+    <TextView
+        android:id="@+id/textSta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="STA"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btnStadiums"
+        app:layout_constraintStart_toStartOf="@+id/btnStadiums"
+        app:layout_constraintTop_toBottomOf="@+id/guideline26" />
+
+    <TextView
+        android:id="@+id/textSta2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="90"
+        android:text="DI"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textSta3"
+        app:layout_constraintStart_toEndOf="@+id/btnStadiums"
+        app:layout_constraintTop_toTopOf="@+id/textSta" />
+
+    <TextView
+        android:id="@+id/textSta3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:rotation="180"
+        android:text="UMS"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btnStadiums"
+        app:layout_constraintStart_toStartOf="@+id/btnStadiums"
+        app:layout_constraintTop_toBottomOf="@+id/btnStadiums" />
+
+
+    <ImageView
+        android:id="@+id/btnHistory"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@mipmap/histo"
+        app:layout_constraintBottom_toTopOf="@+id/guideline24"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline25" />
+
+
+    <ImageView
+        android:id="@+id/btnSummary"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/summa"
+        app:layout_constraintBottom_toTopOf="@+id/guideline27"
+        app:layout_constraintEnd_toStartOf="@+id/guideline23"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <ImageView
+        android:id="@+id/btnAbout"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/about"
+        app:layout_constraintBottom_toTopOf="@+id/guideline24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline23"
+        app:layout_constraintTop_toTopOf="@+id/guideline25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="120dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="255dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="500dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="330dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="155dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="525dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

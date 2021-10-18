@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EURO2020</string>
+    <string name="activity_groups">Groups</string>
+    <string name="activity_stadium">Stadiums</string>
+    <string name="activity_referee">Referees</string>
+    <string name="activity_history">History</string>
+    <string name="activity_summary">Summary</string>
+    <string name="activity_players">Search By Country</string>
+    <string name="activity_website">Website</string>
+    <string name="activity_players2">Search By Player Name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

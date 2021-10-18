@@ -1,0 +1,2175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/euro6"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context=".FirstFragment">
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toTopOf="@+id/guideline12" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TURKEY"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/guideline12" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/tur"
+            app:layout_constraintBottom_toBottomOf="@+id/textView2"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="0:3"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintStart_toEndOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/guideline12" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/ita"
+            app:layout_constraintBottom_toBottomOf="@id/textView3"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView3" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ITALY"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@+id/guideline12" />
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView1" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WALES"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView2" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/wal"
+            app:layout_constraintBottom_toBottomOf="@+id/textView5"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView5" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1:1"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView3" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/sui"
+            app:layout_constraintBottom_toBottomOf="@id/textView6"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView6" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SWITZERLAND"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView4" />
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView5" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DENMARK"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView6" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/den"
+            app:layout_constraintBottom_toBottomOf="@+id/textView9"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0:1"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView7" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/fin"
+            app:layout_constraintBottom_toBottomOf="@id/textView10"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView10" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FINLAND"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView8" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView9" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BELGIUM"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView10" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/bel"
+            app:layout_constraintBottom_toBottomOf="@+id/textView13"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3:0"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView11" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/rus"
+            app:layout_constraintBottom_toBottomOf="@id/textView14"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView14" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RUSSIA"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView12" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView13" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENGLAND"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView14" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/eng"
+            app:layout_constraintBottom_toBottomOf="@+id/textView17"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1:0"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView15" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/cro"
+            app:layout_constraintBottom_toBottomOf="@id/textView18"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView18" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CROATIA"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView16" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView17" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AUSTRIA"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView18" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/aus"
+            app:layout_constraintBottom_toBottomOf="@+id/textView21"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView21" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3:1"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView19" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/mac"
+            app:layout_constraintBottom_toBottomOf="@id/textView22"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView22" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MACEDONIA"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView20" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView21" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NETHERLANDS"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView22" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/net"
+            app:layout_constraintBottom_toBottomOf="@+id/textView25"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView25" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3:2"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView23" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/ukr"
+            app:layout_constraintBottom_toBottomOf="@id/textView26"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView26" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UKRAINE"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView24" />
+
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView25" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SCOTLAND"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView26" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/sco"
+            app:layout_constraintBottom_toBottomOf="@+id/textView29"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView29" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0:2"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView27" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/cze"
+            app:layout_constraintBottom_toBottomOf="@id/textView30"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView30" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CZECH"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView28" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView29" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="POLAND"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView30" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/pol"
+            app:layout_constraintBottom_toBottomOf="@+id/textView33"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView33" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1:2"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView31" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/slo"
+            app:layout_constraintBottom_toBottomOf="@id/textView34"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView34" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SLOVAKIA"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView32" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView33" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SPAIN"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView34" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/spa"
+            app:layout_constraintBottom_toBottomOf="@+id/textView37"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView37" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0:0"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView35" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/swe"
+            app:layout_constraintBottom_toBottomOf="@id/textView38"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView38" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SWEDEN"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView36" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView37" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HUNGARY"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView38" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/hun"
+            app:layout_constraintBottom_toBottomOf="@+id/textView41"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView41" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0:3"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView39" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/por"
+            app:layout_constraintBottom_toBottomOf="@id/textView42"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView42" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PORTUGAL"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView40" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView41" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FRANCE"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView42" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/fra"
+            app:layout_constraintBottom_toBottomOf="@+id/textView45"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView45" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1:0"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView43" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/ger"
+            app:layout_constraintBottom_toBottomOf="@id/textView46"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView46" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GERMANY"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView44" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView45" />
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FINLAND"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView46" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/fin"
+            app:layout_constraintBottom_toBottomOf="@+id/textView49"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView49" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0:1"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView47" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/rus"
+            app:layout_constraintBottom_toBottomOf="@id/textView50"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView50" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RUSSIA"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView48" />
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView49" />
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TURKEY"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView50" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/tur"
+            app:layout_constraintBottom_toBottomOf="@+id/textView53"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView53" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0:2"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView51" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/wal"
+            app:layout_constraintBottom_toBottomOf="@id/textView54"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView54" />
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WALES"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView52" />
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView53" />
+
+        <TextView
+            android:id="@+id/textView58"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ITALY"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView54" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/ita"
+            app:layout_constraintBottom_toBottomOf="@+id/textView57"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView57" />
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3:0"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView55" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/sui"
+            app:layout_constraintBottom_toBottomOf="@id/textView58"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView58" />
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SWITZERLAND"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView56" />
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView57" />
+
+        <TextView
+            android:id="@+id/textView62"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UKRAINE"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView58" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/ukr"
+            app:layout_constraintBottom_toBottomOf="@+id/textView61"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView61" />
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2:1"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView59" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/mac"
+            app:layout_constraintBottom_toBottomOf="@id/textView62"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView62" />
+
+        <TextView
+            android:id="@+id/textView64"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MACEDONIA"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView60" />
+
+        <TextView
+            android:id="@+id/textView65"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView61" />
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DENMARK"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView62" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/den"
+            app:layout_constraintBottom_toBottomOf="@+id/textView65"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView65" />
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1:2"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView63" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/bel"
+            app:layout_constraintBottom_toBottomOf="@id/textView66"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView66" />
+
+        <TextView
+            android:id="@+id/textView68"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BELGIUM"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView64" />
+
+        <TextView
+            android:id="@+id/textView69"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView65" />
+
+        <TextView
+            android:id="@+id/textView70"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NETHERLANDS"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView66" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/net"
+            app:layout_constraintBottom_toBottomOf="@+id/textView69"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView69" />
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2:0"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView67" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/aus"
+            app:layout_constraintBottom_toBottomOf="@id/textView70"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView70" />
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AUSTRIA"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView68" />
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView69" />
+
+        <TextView
+            android:id="@+id/textView74"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SWEDEN"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView70" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/swe"
+            app:layout_constraintBottom_toBottomOf="@+id/textView73"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView73" />
+
+        <TextView
+            android:id="@+id/textView75"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1:0"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView71" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/slo"
+            app:layout_constraintBottom_toBottomOf="@id/textView74"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView74" />
+
+        <TextView
+            android:id="@+id/textView76"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SLOVAKIA"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView72" />
+
+        <TextView
+            android:id="@+id/textView77"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView73" />
+
+        <TextView
+            android:id="@+id/textView78"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CROATIA"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView74" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/cro"
+            app:layout_constraintBottom_toBottomOf="@+id/textView77"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView77" />
+
+        <TextView
+            android:id="@+id/textView79"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1:1"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView75" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/cze"
+            app:layout_constraintBottom_toBottomOf="@id/textView78"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView78" />
+
+        <TextView
+            android:id="@+id/textView80"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CZECH"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView76" />
+
+        <TextView
+            android:id="@+id/textView81"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView77" />
+
+        <TextView
+            android:id="@+id/textView82"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENGLAND"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView78" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/eng"
+            app:layout_constraintBottom_toBottomOf="@+id/textView81"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView81" />
+
+        <TextView
+            android:id="@+id/textView83"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0:0"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView79" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/sco"
+            app:layout_constraintBottom_toBottomOf="@id/textView82"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView82" />
+
+        <TextView
+            android:id="@+id/textView84"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SCOTLAND"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView80" />
+
+        <TextView
+            android:id="@+id/textView85"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="19.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView81" />
+
+        <TextView
+            android:id="@+id/textView86"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HUNGARY"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView82" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/hun"
+            app:layout_constraintBottom_toBottomOf="@+id/textView85"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView85" />
+
+        <TextView
+            android:id="@+id/textView87"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1:1"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView83" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/fra"
+            app:layout_constraintBottom_toBottomOf="@id/textView86"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView86" />
+
+        <TextView
+            android:id="@+id/textView88"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FRANCE"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView84" />
+
+        <TextView
+            android:id="@+id/textView89"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="19.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView85" />
+
+        <TextView
+            android:id="@+id/textView90"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PORTUGAL"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView86" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/por"
+            app:layout_constraintBottom_toBottomOf="@+id/textView89"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView89" />
+
+        <TextView
+            android:id="@+id/textView91"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2:4"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView87" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/ger"
+            app:layout_constraintBottom_toBottomOf="@id/textView92"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView92" />
+
+        <TextView
+            android:id="@+id/textView92"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GERMANY"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView88" />
+
+        <TextView
+            android:id="@+id/textView93"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="19.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView89" />
+
+        <TextView
+            android:id="@+id/textView94"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SPAIN"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView90" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/spa"
+            app:layout_constraintBottom_toBottomOf="@+id/textView93"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView93" />
+
+        <TextView
+            android:id="@+id/textView95"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1:1"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView91" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/pol"
+            app:layout_constraintBottom_toBottomOf="@id/textView94"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView94" />
+
+        <TextView
+            android:id="@+id/textView96"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="POLAND"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView92" />
+
+        <TextView
+            android:id="@+id/textView97"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView93" />
+
+
+        <TextView
+            android:id="@+id/textView98"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ITALY"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView94" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/ita"
+            app:layout_constraintBottom_toBottomOf="@+id/textView97"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView97" />
+
+        <TextView
+            android:id="@+id/textView99"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1:0"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView95" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/wal"
+            app:layout_constraintBottom_toBottomOf="@id/textView98"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView98" />
+
+        <TextView
+            android:id="@+id/textView100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WALES"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView96" />
+
+        <TextView
+            android:id="@+id/textView101"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView97" />
+
+        <TextView
+            android:id="@+id/textView102"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SWITZERLAND"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView98" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/sui"
+            app:layout_constraintBottom_toBottomOf="@+id/textView101"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView101" />
+
+        <TextView
+            android:id="@+id/textView103"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3:1"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView99" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/tur"
+            app:layout_constraintBottom_toBottomOf="@id/textView104"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView104" />
+
+        <TextView
+            android:id="@+id/textView104"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TURKEY"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView100" />
+
+        <TextView
+            android:id="@+id/textView105"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView101" />
+
+        <TextView
+            android:id="@+id/textView106"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MACEDONIA"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView102" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/mac"
+            app:layout_constraintBottom_toBottomOf="@+id/textView105"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView105" />
+
+        <TextView
+            android:id="@+id/textView107"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0:3"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView103" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/net"
+            app:layout_constraintBottom_toBottomOf="@id/textView106"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView106" />
+
+        <TextView
+            android:id="@+id/textView108"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NETHERLANDS"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView104" />
+
+
+        <TextView
+            android:id="@+id/textView109"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView105" />
+
+
+        <TextView
+            android:id="@+id/textView110"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UKRAINE"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView106" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/ukr"
+            app:layout_constraintBottom_toBottomOf="@+id/textView109"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView109" />
+
+        <TextView
+            android:id="@+id/textView111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0:1"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView107" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/aus"
+            app:layout_constraintBottom_toBottomOf="@id/textView110"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView110" />
+
+        <TextView
+            android:id="@+id/textView112"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AUSTRIA"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView108" />
+
+        <TextView
+            android:id="@+id/textView113"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView109" />
+
+        <TextView
+            android:id="@+id/textView114"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FINLAND"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView110" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/fin"
+            app:layout_constraintBottom_toBottomOf="@+id/textView113"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView113" />
+
+        <TextView
+            android:id="@+id/textView115"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0:2"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView111" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/bel"
+            app:layout_constraintBottom_toBottomOf="@id/textView116"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView116" />
+
+        <TextView
+            android:id="@+id/textView116"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BELGIUM"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView112" />
+
+        <TextView
+            android:id="@+id/textView117"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView113" />
+
+        <TextView
+            android:id="@+id/textView118"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RUSSIA"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView114" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/rus"
+            app:layout_constraintBottom_toBottomOf="@+id/textView117"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView117" />
+
+        <TextView
+            android:id="@+id/textView119"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1:4"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView115" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/den"
+            app:layout_constraintBottom_toBottomOf="@id/textView118"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView118" />
+
+        <TextView
+            android:id="@+id/textView120"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DENMARK"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView116" />
+
+
+        <TextView
+            android:id="@+id/textView121"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView117" />
+
+
+        <TextView
+            android:id="@+id/textView122"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CZECH"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView118" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/cze"
+            app:layout_constraintBottom_toBottomOf="@+id/textView123"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView123" />
+
+        <TextView
+            android:id="@+id/textView123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0:1"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView119" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/eng"
+            app:layout_constraintBottom_toBottomOf="@id/textView122"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView122" />
+
+        <TextView
+            android:id="@+id/textView124"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENGLAND"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView120" />
+
+        <TextView
+            android:id="@+id/textView125"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView121" />
+
+        <TextView
+            android:id="@+id/textView126"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CROATIA"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView122" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/cro"
+            app:layout_constraintBottom_toBottomOf="@+id/textView125"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView125" />
+
+        <TextView
+            android:id="@+id/textView127"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3:1"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView123" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/sco"
+            app:layout_constraintBottom_toBottomOf="@id/textView128"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView128" />
+
+        <TextView
+            android:id="@+id/textView128"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SCOTLAND"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView124" />
+
+        <TextView
+            android:id="@+id/textView129"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView125" />
+
+        <TextView
+            android:id="@+id/textView130"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SLOVAKIA"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView126" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/slo"
+            app:layout_constraintBottom_toBottomOf="@+id/textView129"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView129" />
+
+        <TextView
+            android:id="@+id/textView131"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0:5"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView127" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/spa"
+            app:layout_constraintBottom_toBottomOf="@id/textView130"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView130" />
+
+        <TextView
+            android:id="@+id/textView132"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SPAIN"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView128" />
+
+        <TextView
+            android:id="@+id/textView133"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView129" />
+
+
+        <TextView
+            android:id="@+id/textView134"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SWEDEN"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView130" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/swe"
+            app:layout_constraintBottom_toBottomOf="@+id/textView135"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView135" />
+
+        <TextView
+            android:id="@+id/textView135"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3:2"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView131" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/pol"
+            app:layout_constraintBottom_toBottomOf="@id/textView134"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView134" />
+
+        <TextView
+            android:id="@+id/textView136"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="POLAND"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView132" />
+
+        <TextView
+            android:id="@+id/textView137"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView133" />
+
+        <TextView
+            android:id="@+id/textView138"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GERMANY"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView134" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/ger"
+            app:layout_constraintBottom_toBottomOf="@+id/textView137"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView137" />
+
+        <TextView
+            android:id="@+id/textView139"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2:2"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView135" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/hun"
+            app:layout_constraintBottom_toBottomOf="@id/textView140"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView140" />
+
+        <TextView
+            android:id="@+id/textView140"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HUNGARY"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView136" />
+
+        <TextView
+            android:id="@+id/textView141"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23.06.2021"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@id/textView137" />
+
+        <TextView
+            android:id="@+id/textView142"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PORTUGAL"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toBottomOf="@id/textView138" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/por"
+            app:layout_constraintBottom_toBottomOf="@+id/textView141"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@+id/guideline8"
+            app:layout_constraintTop_toTopOf="@+id/textView141" />
+
+        <TextView
+            android:id="@+id/textView143"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2:2"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintTop_toBottomOf="@id/textView139" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/fra"
+            app:layout_constraintBottom_toBottomOf="@id/textView142"
+            app:layout_constraintEnd_toStartOf="@+id/guideline14"
+            app:layout_constraintStart_toEndOf="@+id/guideline7"
+            app:layout_constraintTop_toTopOf="@id/textView142" />
+
+        <TextView
+            android:id="@+id/textView144"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FRANCE"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/guideline14"
+            app:layout_constraintTop_toBottomOf="@id/textView140" />
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="230dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="170dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="210dp"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="210dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.02676399" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="10dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="80dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="270dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

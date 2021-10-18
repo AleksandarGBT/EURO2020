@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/euro5"
+    android:paddingBottom="10dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent">
+
+    <ImageView
+        android:id="@+id/im1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@mipmap/patsch"/>
+
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:text="PATRIK SCHICK"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/im1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline20"
+        app:layout_constraintStart_toEndOf="@+id/guideline19"
+        app:layout_constraintTop_toTopOf="@+id/im1" />
+
+    <ImageView
+        android:id="@+id/im2"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="6dp"
+        android:src="@mipmap/cze"
+        app:layout_constraintBottom_toBottomOf="@+id/tx1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toEndOf="@+id/guideline20"
+        app:layout_constraintTop_toTopOf="@+id/tx1" />
+
+    <TextView
+        android:id="@+id/tx2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/im2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline22"
+        app:layout_constraintStart_toEndOf="@+id/guideline21"
+        app:layout_constraintTop_toTopOf="@+id/im2" />
+
+    <ImageView
+        android:id="@+id/im3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tx2"
+        app:layout_constraintStart_toEndOf="@+id/guideline22"
+        app:layout_constraintTop_toTopOf="@+id/tx2"
+        android:src="@drawable/ball2"/>
+
+
+    <ImageView
+        android:id="@+id/im4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/im1"
+        android:src="@mipmap/criron"/>
+
+    <TextView
+        android:id="@+id/tx3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:text="CRISTIANO RONALDO"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/im4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline20"
+        app:layout_constraintStart_toEndOf="@+id/guideline19"
+        app:layout_constraintTop_toTopOf="@+id/im4" />
+
+    <ImageView
+        android:id="@+id/im5"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="6dp"
+        android:src="@mipmap/por"
+        app:layout_constraintBottom_toBottomOf="@+id/tx3"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toEndOf="@+id/guideline20"
+        app:layout_constraintTop_toTopOf="@+id/tx3" />
+
+    <TextView
+        android:id="@+id/tx4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/im5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline22"
+        app:layout_constraintStart_toEndOf="@+id/guideline21"
+        app:layout_constraintTop_toTopOf="@+id/im5" />
+
+    <ImageView
+        android:id="@+id/im6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tx4"
+        app:layout_constraintStart_toEndOf="@+id/guideline22"
+        app:layout_constraintTop_toTopOf="@+id/tx4"
+        android:src="@drawable/ball2"/>
+
+    <ImageView
+        android:id="@+id/im7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/im4"
+        android:src="@mipmap/romluk"/>
+
+    <TextView
+        android:id="@+id/tx5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:text="ROMELU LUKAKU"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/im7"
+        app:layout_constraintEnd_toStartOf="@+id/guideline20"
+        app:layout_constraintStart_toEndOf="@+id/guideline19"
+        app:layout_constraintTop_toTopOf="@+id/im7" />
+
+    <ImageView
+        android:id="@+id/im8"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="6dp"
+        android:src="@mipmap/bel"
+        app:layout_constraintBottom_toBottomOf="@+id/tx5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toEndOf="@+id/guideline20"
+        app:layout_constraintTop_toTopOf="@+id/tx5" />
+
+    <TextView
+        android:id="@+id/tx6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/im8"
+        app:layout_constraintEnd_toStartOf="@+id/guideline22"
+        app:layout_constraintStart_toEndOf="@+id/guideline21"
+        app:layout_constraintTop_toTopOf="@+id/im8" />
+
+    <ImageView
+        android:id="@+id/im9"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tx6"
+        app:layout_constraintStart_toEndOf="@+id/guideline22"
+        app:layout_constraintTop_toTopOf="@+id/tx6"
+        android:src="@drawable/ball2"/>
+
+    <ImageView
+        android:id="@+id/im10"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/im7"
+        android:src="@mipmap/harkan"/>
+
+    <TextView
+        android:id="@+id/tx7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:text="HARRY KANE"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/im10"
+        app:layout_constraintEnd_toStartOf="@+id/guideline20"
+        app:layout_constraintStart_toEndOf="@+id/guideline19"
+        app:layout_constraintTop_toTopOf="@+id/im10" />
+
+    <ImageView
+        android:id="@+id/im11"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="6dp"
+        android:src="@mipmap/eng"
+        app:layout_constraintBottom_toBottomOf="@+id/tx7"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toEndOf="@+id/guideline20"
+        app:layout_constraintTop_toTopOf="@+id/tx7" />
+
+    <TextView
+        android:id="@+id/tx8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/im11"
+        app:layout_constraintEnd_toStartOf="@+id/guideline22"
+        app:layout_constraintStart_toEndOf="@+id/guideline21"
+        app:layout_constraintTop_toTopOf="@+id/im11" />
+
+    <ImageView
+        android:id="@+id/im12"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tx8"
+        app:layout_constraintStart_toEndOf="@+id/guideline22"
+        app:layout_constraintTop_toTopOf="@+id/tx8"
+        android:src="@drawable/ball2"/>
+
+    <ImageView
+        android:id="@+id/im13"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/im10"
+        android:src="@mipmap/karben"/>
+
+    <TextView
+        android:id="@+id/tx9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:text="KARIM BENZEMA"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/im13"
+        app:layout_constraintEnd_toStartOf="@+id/guideline20"
+        app:layout_constraintStart_toEndOf="@+id/guideline19"
+        app:layout_constraintTop_toTopOf="@+id/im13" />
+
+    <ImageView
+        android:id="@+id/im14"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="6dp"
+        android:src="@mipmap/fra"
+        app:layout_constraintBottom_toBottomOf="@+id/tx9"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toEndOf="@+id/guideline20"
+        app:layout_constraintTop_toTopOf="@+id/tx9" />
+
+    <TextView
+        android:id="@+id/tx10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/im14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline22"
+        app:layout_constraintStart_toEndOf="@+id/guideline21"
+        app:layout_constraintTop_toTopOf="@+id/im14" />
+
+    <ImageView
+        android:id="@+id/im15"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tx10"
+        app:layout_constraintStart_toEndOf="@+id/guideline22"
+        app:layout_constraintTop_toTopOf="@+id/tx10"
+        android:src="@drawable/ball2"/>
+
+    <ImageView
+        android:id="@+id/im16"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/im13"
+        android:src="@mipmap/emifor"/>
+
+    <TextView
+        android:id="@+id/tx11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:text="EMIL FORSBERG"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/im16"
+        app:layout_constraintEnd_toStartOf="@+id/guideline20"
+        app:layout_constraintStart_toEndOf="@+id/guideline19"
+        app:layout_constraintTop_toTopOf="@+id/im16" />
+
+    <ImageView
+        android:id="@+id/im17"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="6dp"
+        android:src="@mipmap/swe"
+        app:layout_constraintBottom_toBottomOf="@+id/tx11"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toEndOf="@+id/guideline20"
+        app:layout_constraintTop_toTopOf="@+id/tx11" />
+
+    <TextView
+        android:id="@+id/tx12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/im17"
+        app:layout_constraintEnd_toStartOf="@+id/guideline22"
+        app:layout_constraintStart_toEndOf="@+id/guideline21"
+        app:layout_constraintTop_toTopOf="@+id/im17" />
+
+    <ImageView
+        android:id="@+id/im18"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tx12"
+        app:layout_constraintStart_toEndOf="@+id/guideline22"
+        app:layout_constraintTop_toTopOf="@+id/tx12"
+        android:src="@drawable/ball2"/>
+
+    <ImageView
+        android:id="@+id/im19"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/im16"
+        android:src="@mipmap/geowij"/>
+
+    <TextView
+        android:id="@+id/tx13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:text="GEORGINIO WIJNALDUM"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/im19"
+        app:layout_constraintEnd_toStartOf="@+id/guideline20"
+        app:layout_constraintStart_toEndOf="@+id/guideline19"
+        app:layout_constraintTop_toTopOf="@+id/im19" />
+
+    <ImageView
+        android:id="@+id/im20"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="6dp"
+        android:src="@mipmap/net"
+        app:layout_constraintBottom_toBottomOf="@+id/tx13"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toEndOf="@+id/guideline20"
+        app:layout_constraintTop_toTopOf="@+id/tx13" />
+
+    <TextView
+        android:id="@+id/tx14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/im20"
+        app:layout_constraintEnd_toStartOf="@+id/guideline22"
+        app:layout_constraintStart_toEndOf="@+id/guideline21"
+        app:layout_constraintTop_toTopOf="@+id/im20" />
+
+    <ImageView
+        android:id="@+id/im21"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tx14"
+        app:layout_constraintStart_toEndOf="@+id/guideline22"
+        app:layout_constraintTop_toTopOf="@+id/tx14"
+        android:src="@drawable/ball2"/>
+
+    <ImageView
+        android:id="@+id/im22"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/im19"
+        android:src="@mipmap/roblew"/>
+
+    <TextView
+        android:id="@+id/tx15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:text="ROBERT LEWANDOWSKI"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/im22"
+        app:layout_constraintEnd_toStartOf="@+id/guideline20"
+        app:layout_constraintStart_toEndOf="@+id/guideline19"
+        app:layout_constraintTop_toTopOf="@+id/im22" />
+
+    <ImageView
+        android:id="@+id/im23"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="6dp"
+        android:src="@mipmap/pol"
+        app:layout_constraintBottom_toBottomOf="@+id/tx15"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toEndOf="@+id/guideline20"
+        app:layout_constraintTop_toTopOf="@+id/tx15" />
+
+    <TextView
+        android:id="@+id/tx16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/im23"
+        app:layout_constraintEnd_toStartOf="@+id/guideline22"
+        app:layout_constraintStart_toEndOf="@+id/guideline21"
+        app:layout_constraintTop_toTopOf="@+id/im23" />
+
+    <ImageView
+        android:id="@+id/im24"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tx16"
+        app:layout_constraintStart_toEndOf="@+id/guideline22"
+        app:layout_constraintTop_toTopOf="@+id/tx16"
+        android:src="@drawable/ball2"/>
+
+    <ImageView
+        android:id="@+id/im25"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/im22"
+        android:src="@mipmap/rahste"/>
+
+    <TextView
+        android:id="@+id/tx17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:text="RAHEEM STERLING"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/im25"
+        app:layout_constraintEnd_toStartOf="@+id/guideline20"
+        app:layout_constraintStart_toEndOf="@+id/guideline19"
+        app:layout_constraintTop_toTopOf="@+id/im25" />
+
+    <ImageView
+        android:id="@+id/im26"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="6dp"
+        android:src="@mipmap/eng"
+        app:layout_constraintBottom_toBottomOf="@+id/tx17"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toEndOf="@+id/guideline20"
+        app:layout_constraintTop_toTopOf="@+id/tx17" />
+
+    <TextView
+        android:id="@+id/tx18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/im26"
+        app:layout_constraintEnd_toStartOf="@+id/guideline22"
+        app:layout_constraintStart_toEndOf="@+id/guideline21"
+        app:layout_constraintTop_toTopOf="@+id/im26" />
+
+    <ImageView
+        android:id="@+id/im27"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tx18"
+        app:layout_constraintStart_toEndOf="@+id/guideline22"
+        app:layout_constraintTop_toTopOf="@+id/tx18"
+        android:src="@drawable/ball2"/>
+
+    <ImageView
+        android:id="@+id/im28"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/im25"
+        android:src="@mipmap/alvmor"/>
+
+    <TextView
+        android:id="@+id/tx19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:text="ALVARO MORATA"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/im28"
+        app:layout_constraintEnd_toStartOf="@+id/guideline20"
+        app:layout_constraintStart_toEndOf="@+id/guideline19"
+        app:layout_constraintTop_toTopOf="@+id/im28" />
+
+    <ImageView
+        android:id="@+id/im29"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="6dp"
+        android:src="@mipmap/spa"
+        app:layout_constraintBottom_toBottomOf="@+id/tx19"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toEndOf="@+id/guideline20"
+        app:layout_constraintTop_toTopOf="@+id/tx19" />
+
+    <TextView
+        android:id="@+id/tx20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/im29"
+        app:layout_constraintEnd_toStartOf="@+id/guideline22"
+        app:layout_constraintStart_toEndOf="@+id/guideline21"
+        app:layout_constraintTop_toTopOf="@+id/im29" />
+
+    <ImageView
+        android:id="@+id/im30"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tx20"
+        app:layout_constraintStart_toEndOf="@+id/guideline22"
+        app:layout_constraintTop_toTopOf="@+id/tx20"
+        android:src="@drawable/ball2"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="50dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="235dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="285dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="315dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
